@@ -1,0 +1,42 @@
+1. Добавить задачу
+Метод: POST
+URL: http://localhost:1000/tasks
+Тело запроса:
+{
+    "description": "Сделать PD"
+}
+
+
+
+2. Получить все задачи
+Метод: GET
+URL: http://localhost:1000/tasks
+Тело запроса: отсутствует
+
+
+
+3. Получить задачу по ID
+Метод: GET
+URL: http://localhost:1000/tasks/1 
+Тело запроса: отсутствует
+
+
+
+4. Изменить статус задачи
+Метод: PUT
+URL: http://localhost:1000/tasks
+Тело запроса: 
+{
+    "id": 1,
+    "status": "done"
+}
+
+
+
+5. Удалить задачу
+Метод: DELETE
+URL: http://localhost:1000/tasks
+Тело запроса:
+{
+    "id": 1
+}
